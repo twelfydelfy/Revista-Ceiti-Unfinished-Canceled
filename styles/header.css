@@ -1,0 +1,30 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 5;
+
+}
+.hleft, .hright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+.hmid img{
+    width: 364px;
+    height: 68px;
+}
+.header a{
+    font-family: "Kumbh Sans";
+    font-size: 30px;
+    cursor: pointer;
+}
