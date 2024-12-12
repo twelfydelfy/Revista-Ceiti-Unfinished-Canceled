@@ -39,8 +39,7 @@
     margin: 0;
 }
 .sec6down{
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 .sec6down button{
     background-color: #B81F1F;
@@ -53,4 +52,20 @@
     padding: 30px 80px;
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
+}
+.sec6hidden{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: none;
+}
+.sec6hidden a{
+    text-decoration: none;
+    color: black;
+    font-family: "Kumbh Sans";
+    font-size: 30px;
+}
+.sec6hidden.active{
+    display: flex;
 }
