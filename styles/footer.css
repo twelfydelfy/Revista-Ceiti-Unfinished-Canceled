@@ -9,23 +9,22 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding: 100px 30px 30px 30px;
+    padding: 20px 30px 20px 30px;
 }
 .gmaps{
-    height: 425px;
+    height: 225px;
     width: 448px;
 }
 .details{
     display: grid;
     grid-template-columns: 100px 1fr;
     gap: 10px;
-    row-gap: 30px;
     align-items: center;
 }
 .sec6upright h1{
     font-family: Kodchasan;
     color: white;
-    font-size: 46px;
+    font-size: 35px;
     font-weight: 500;
     text-align: center;
 }
@@ -33,39 +32,11 @@
     color: #B81F1F;
 }
 .details p{
-    font-size: 45px;
+    font-size: 35px;
     color: white;
     font-family: Karla;
     margin: 0;
 }
-.sec6down{
-    text-align: center;
-}
-.sec6down button{
-    background-color: #B81F1F;
-    color: #162A2B;
-    font-family: Kodchasan;
-    font-size: 46px;
-    border: none;
-    font-weight: 500;
-    text-align: center;
-    padding: 30px 80px;
-    border-top-left-radius: 200px;
-    border-top-right-radius: 200px;
-}
-.sec6hidden{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    display: none;
-}
-.sec6hidden a{
-    text-decoration: none;
-    color: black;
-    font-family: "Kumbh Sans";
-    font-size: 30px;
-}
-.sec6hidden.active{
-    display: flex;
-}
+.details img{
+    transform: scale(0.4);
+}   

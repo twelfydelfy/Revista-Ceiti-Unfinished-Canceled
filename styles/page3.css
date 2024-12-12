@@ -1,0 +1,109 @@
+body{
+    background-color: #FDFCF7;
+    margin: 0;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("../images/Group\ 48.png");
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+.section-1 h1{
+    font-family: 'Kumbh Sans';
+    font-size: 100px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.section-1 p{
+    font-family: Karla;
+    font-size: 30px;
+    margin-top: 5px;
+}
+.section-2{
+    background-color: #162A2B;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+}
+.section-2 h1{
+    font-family: Kodchasan;
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+    color: #F5EBE0;
+}
+.sec2low{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.imgbox{
+    position: relative;
+}
+.imgbox p{
+    position: absolute;
+    padding: 30px 50px;
+    font-family: Kodchasan;
+    color: #951113;
+    background-color: #D9D9D9;
+    bottom: -31px;
+    left: 0;
+    font-size: 35px;
+    font-weight: 500;
+}
+.z{
+    padding-bottom: 3px;
+    border-bottom: 3px #951113 solid;
+    color: #F5EBE0;
+    font-weight: 500;
+    font-family: Kodchasan;
+    width: 126px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.box h3{
+    font-size: 30px;
+    color: #FDFCF7;
+    font-weight:400;
+    font-family: Karla;
+    margin-top: 0;
+    word-spacing: 0.4em;
+}
+.section-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 160px;
+}
+.sec5color{
+    background-color: #D6E0E2;
+    text-align: center;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    padding: 20px 50px;
+    padding-bottom: 50px;
+}
+.sec5color h1{
+    color: #FFFCFC;
+    font-family: Kodchasan;
+    text-align: center;
+    font-size: 60px;
+}
+.sec5color button{
+    background-color: #162A2B;
+    color: #B81F1F;
+    font-family: Kodchasan;
+    border-radius: 30px;
+    padding:10px 20px;
+    border: none;
+    font-size: 35px;
+}

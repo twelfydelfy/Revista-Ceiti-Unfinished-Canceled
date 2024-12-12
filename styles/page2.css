@@ -1,5 +1,6 @@
 body{
     background-color: #FDFCF7;
+    margin: 0;
 }
 .section-1{
     display: flex;
