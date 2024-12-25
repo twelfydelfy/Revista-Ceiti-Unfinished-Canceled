@@ -27,4 +27,9 @@
     font-family: "Kumbh Sans";
     font-size: 30px;
     cursor: pointer;
+    transition: all ease-out 0.3s;
+}
+.header a:hover{
+    color: #951113;
+    text-decoration: underline;
 }

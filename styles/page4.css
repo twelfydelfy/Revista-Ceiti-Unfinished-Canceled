@@ -76,6 +76,10 @@ body{
     text-align: center;
     padding-top: 25px;
     border-radius: 20px;
+    transition: all ease-out 0.2s;
+}
+.box:hover{
+    background-color: #951113;
 }
 .box h1{
     font-family: Kodchasan;
