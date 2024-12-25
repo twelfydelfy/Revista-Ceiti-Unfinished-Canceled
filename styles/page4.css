@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    background-color: #FDFCF7;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(../images/Group\ 61.png);
+    margin-top: 95px;
+    height: 627px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-1 h1{
+    font-family: 'Kumbh Sans';
+    font-size: 100px;
+    font-weight: normal;
+    margin-top: 200px;
+    color: #162A2B;
+}
+.section-1 p{
+    font-family: Karla;
+    font-size: 60px;
+    color: #951113;
+    margin-top: 0;
+}
+.main-section{
+    background-image: url(../images/Group\ 60.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.sec2up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.sec2up p{
+    font-family: Kodchasan;
+    font-weight: 500;
+    font-size: 25px;
+    border-bottom: 2px #951113 solid;
+    color: #162A2B;
+}
+.section-2 h1{
+    font-family: Kodchasan;
+    font-weight: 500;
+    font-size: 80px;
+    color: #162A2B;
+}
+.sec2content{
+    color: #162A2B;
+    font-family: Karla;
+    font-size: 25px;
+    color: #162A2B;
+    padding: 0 60px;
+}
+.section-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    padding-bottom: 300px;
+}
+.box{
+    width: 35vw;
+    background-color: #162A2B;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 20px;
+}
+.box h1{
+    font-family: Kodchasan;
+    font-weight: 500;
+    font-size: 50px;
+    color: #F5EBE0;
+}
+.box p{
+    font-family: Karla;
+    font-size: 28px;
+    color: #F5EBE0;
+    line-height: 50px;
+    padding: 10px 20px;
+}

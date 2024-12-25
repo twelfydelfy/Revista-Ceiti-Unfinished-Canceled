@@ -1,0 +1,141 @@
+body{
+    background-color: #FDFCF7;
+    margin: 0;
+}
+.section-1{
+    text-align: center;
+    background-image: url(../images/Group\ 53.png);
+    margin-top: 110px;
+    height: 631px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-1 h1{  
+    font-family: 'Kumbh Sans';
+    font-size: 100px;
+    color: #F6F2F2;
+    margin-bottom: 0;
+
+}
+.section-1 p{
+    font-family: Karla;
+    font-size: 30px;
+    color: #F6F2F2;
+}
+
+.section-2{
+    background-image: url(../images/Group\ 62.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    align-items: center;
+}
+.sec2left{
+    background-color: #162A2B;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60vw;
+    border-radius: 20px;
+} 
+
+.sec2left h1{
+    font-family: Kodchasan;
+    font-weight: 500;
+    font-size: 50px;
+    color: #FDFCF7;
+    margin-bottom: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0px 30px 40px 30px; 
+}
+form label{
+    font-family: Karla;
+    font-size: 30px;
+    color: #FDFCF7;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+form input{
+    font-family: Karla;
+    outline: none;
+    background-color: rgba(217, 217, 217, 0.38);
+    color: #AAAAAA;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.bigboy{
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+}
+.subbutton{
+    background-color: #951113;
+    color: white;
+    height: 70px;
+    width: 306px;
+    font-family: Kodchasan;
+    font-size: 40px;
+    align-self: center;
+    cursor: pointer;
+    margin-bottom: -20px;
+    transition: all 0.2s ease-out;
+}
+.subbutton:hover{
+    background-color: transparent;
+    color: #951113;
+    transform: scale(1.1);
+    border: 1px solid white;
+}
+.sec2right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 438px;
+    width: 30vw;
+}
+.box1, .box2, .box3, .box4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box1 h2, .box2 h2, .box3 h2, .box4 h2{
+    font-family: Karla;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.box1 p, .box2 p, .box3 p, .box4 p{
+    font-family: Karla;
+    font-size: 20px;
+    margin-top: 2px;
+}
+.box1 img{
+    transform: scale(0.8);
+    margin-top: 8px;
+}
+.box2 img{
+    transform: scale(0.7);
+}
+.box3 img{
+    transform: scale(0.7);
+    margin-top: 19px;
+}
+.box4 img{
+    transform: scale(0.6);
+}
+.box4 h2{
+    margin-top: -16px;
+}

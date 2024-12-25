@@ -1,3 +1,35 @@
+.section-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 160px;
+    background-image: url('../images/linii.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec5color{
+    background-color: #D6E0E2;
+    text-align: center;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    padding: 20px 50px;
+    padding-bottom: 50px;
+}
+.sec5color h1{
+    color: #FFFCFC;
+    font-family: Kodchasan;
+    text-align: center;
+    font-size: 60px;
+}
+.sec5color button{
+    background-color: #162A2B;
+    color: #B81F1F;
+    font-family: Kodchasan;
+    border-radius: 30px;
+    padding:10px 20px;
+    border: none;
+    font-size: 35px;
+}
 .section-6{
     display: flex;
     flex-direction: column;
@@ -40,3 +72,6 @@
 .details img{
     transform: scale(0.4);
 }   
+.mailimg{
+    margin-left: -10px;
+}

@@ -101,8 +101,9 @@ body{
     font-family: Kodchasan;
     border-radius: 50px;
     border: none;
-    padding: 10px 20px;
-}
+    padding: 7px 30px 13px 30px;
+    margin-top:15px;
+}/*Să modific de pe butoane pe div*/
 .sec4left{
     display: flex;
     flex-direction: column;
@@ -135,7 +136,9 @@ body{
     padding: 0 50px;
     background-image: url('../images/Group 44.png');
     height: 95vh;
-    margin-top: 100px;
+    margin-top: 85px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .sec4right{
     display: flex;
@@ -170,33 +173,4 @@ body{
     position: absolute;
     top: 40%; left: 50%;
     transform: translate(-50%, -50%);
-}
-.section-5{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 160px;
-}
-.sec5color{
-    background-color: #D6E0E2;
-    text-align: center;
-    border-top-left-radius: 200px;
-    border-top-right-radius: 200px;
-    padding: 20px 50px;
-    padding-bottom: 50px;
-}
-.sec5color h1{
-    color: #FFFCFC;
-    font-family: Kodchasan;
-    text-align: center;
-    font-size: 60px;
-}
-.sec5color button{
-    background-color: #162A2B;
-    color: #B81F1F;
-    font-family: Kodchasan;
-    border-radius: 30px;
-    padding:10px 20px;
-    border: none;
-    font-size: 35px;
 }

@@ -7,6 +7,9 @@ body{
     flex-direction: column;
     margin-top: 100px;
     text-align: center;
+    background-image: url(../images/Group\ 45.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .sec1top h1{
     font-family: "Kumbh Sans";
@@ -81,8 +84,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 110%;
-    margin-left: -5%;
+    width: 100%;
 }
 .box{
     background-color: #162A2B;
@@ -117,4 +119,11 @@ body{
 }
 .bl3{
     height: 55px;
+}
+
+.box1, .box3{
+    transform: scale(0.9);
+}
+.section-5{
+    padding-top: 0px !important;
 }

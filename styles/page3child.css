@@ -52,86 +52,74 @@ body{
     cursor: pointer;
 }
 .section-2{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding-bottom: 80px;
-    background-image:url(../images//Group\ 55.png);
+    background-image: url(../images/Group\ 57.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -100%;
-    padding-top: 50px;
-    margin-top: -20px;
-
+}
+.sec2up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.sec2up p{
+    font-family: Kodchasan;
+    font-weight: 500;
+    font-size: 25px;
+    border-bottom: 2px #951113 solid;
+    color: #162A2B;
 }
 .section-2 h1{
     font-family: Kodchasan;
-    font-size: 70px;
     font-weight: 500;
+    font-size: 80px;
     color: #162A2B;
 }
-.section-3{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #162A2B;
-    padding-top: 50px;
-    row-gap: 70px;
-    padding-bottom: 70px;
+.sec2content{
+    color: #162A2B;
+    font-family: Karla;
+    font-size: 25px;
+    color: #162A2B;
+    padding: 0 60px;
 }
-.container{
+.section-3{
+    height: 500px;
+    background-color: #162A2B;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px 166px;
     align-items: center;
 }
-.container button{
-    font-family: Kodchasan;
-    font-size: 30px;
-    font-weight: 500;
-
-}
-.box{
+.section-3 .box{
+    background-color: #D6E0E2;
     display: flex;
     flex-direction: column;
-    background-color: #D6E0E2;
-    height: 429px;
-    width: 536px;
-    border-radius: 20px;
+    text-align: center;
+    max-width: 30vw;
+    border-radius: 30px;
 }
-.container button{
-    background-color: #951113;
-    color: #FDFCF7;
-    border: none;
-    border-radius: 40px;
-    flex-grow: 0 !important;
-    padding: 15px 30px;
-    margin-top: 10px;
-}
-.box h2, .box h1{
+.section-3 .box h1{
     font-family: Kodchasan;
-    font-weight: 600;
-    font-size: 15px;
+    font-size: 40px;
     color: #162A2B;
     margin-bottom: 5px;
 }
-.box hr{
-    width: 100%;
-    border: 3px #951113 solid;
-}
-.box h1{
-    font-size: 25px;
-    color: #162A2B;
-    margin-top: 5px;
-}
-.box p{
+.section-3 .box p{
     font-family: Karla;
-    font-size: 20px;
-    margin-top: 3px;
-}
-.textbox{
-    padding: 0 30px;
+    font-size: 18px;
+    text-wrap: wrap;
+    line-height: 35px;
+    padding: 0 20px;
 }
 .section-4{
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-image: url(../images/Group\ 56.png);
+    height: 300px;
+    background-image: url(../images/Frame\ 48.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
+    margin-top: -20px;
 }
