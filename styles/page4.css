@@ -7,8 +7,8 @@ body{
     flex-direction: column;
     text-align: center;
     background-image: url(../images/Group\ 61.png);
-    margin-top: 95px;
-    height: 627px;
+    margin-top: 70px;
+    height: 680px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -17,7 +17,7 @@ body{
     font-size: 100px;
     font-weight: normal;
     margin-top: 200px;
-    color: #162A2B;
+    color: #FDFCF7;
 }
 .section-1 p{
     font-family: Karla;
@@ -93,4 +93,41 @@ body{
     color: #F5EBE0;
     line-height: 50px;
     padding: 10px 20px;
+}
+@media (max-width: 600px){
+    .section-1 h1{
+        font-size: 40px;
+    }
+    .section-1 p{
+        font-size: 25px;
+    }
+    .sec2up{
+        padding: 0 10px;
+    }
+    .sec2up p{
+        font-size: 15px;
+    }
+    .section-2 h1{
+        font-size: 40px;
+    }
+    .sec2content{
+        padding: 0 10px;
+        font-size: 15px;
+    }
+    .section-3{
+        padding-bottom: 100px;
+        margin-top: 50px;
+    }
+    .box{
+        width: 40vw;
+        text-align: center;
+    }
+    .box h1{
+        font-size: 22px;
+    }
+    .box p{
+        font-size: 12px;
+        line-height: normal;
+        padding: 10px 6px;
+    }
 }

@@ -94,8 +94,9 @@ form input{
     transition: all 0.2s ease-out;
 }
 .subbutton:hover{
-    background-color: transparent;
+    background-color:   #FDFCF7;
     color: #951113;
+    border: none;
     transform: scale(1.1);
     border: 1px solid white;
 }
@@ -138,4 +139,55 @@ form input{
 }
 .box4 h2{
     margin-top: -16px;
+}
+@media (max-width: 1024px){
+    .section-1{
+        margin-top: 85px;
+    }
+    .section-1 h1{
+        font-size: 40px;
+    }
+    .section-1 p{
+        font-size: 20px;
+        padding: 0 20px;
+    }
+    .section-2{
+        flex-direction: column;
+        padding-left: 0px;
+        margin-top: -200px;
+    }
+    .sec2left{
+        width: 90vw;
+    }
+    .sec2left h1{
+        font-size: 30px;
+    }
+    form{
+        padding: 0px 20px 30px 20px;
+    }
+    form label{
+        font-size: 18px;
+    }
+    .form input{
+        font-size: 15px;
+    }
+    .subbutton{
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+    }
+    .sec2right{
+        width: 90vw;
+        margin-left: -5vw;
+        padding-top: 30px;
+    }
+    .box1 p, .box2 p, .box3 p, .box4 p{
+        font-size: 16px;
+    }
+    .box1 h2, .box2 h2, .box3 h2, .box4 h2{
+        font-size: 25px;
+    }
+    .section-6{
+        margin-top: -300px;
+    }
 }

@@ -7,7 +7,7 @@ body{
     flex-direction: column;
     text-align: center;
     background-image: url("../images/Group\ 51.png");
-    height: 80vh;
+    height: 680px;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -127,4 +127,50 @@ body{
     background-size: cover;
     background-position: top;
     margin-top: -20px;
+}
+@media (max-width: 600px){
+    .section-1 h1{
+        font-size: 40px;
+    }
+    .section-1 p{
+        font-size: 20px;
+    }
+    .searchbar{
+        width: 90vw;
+        margin-left: 2.5vw;
+    }
+    .sec2up{
+        padding: 0 10px;
+    }
+    .sec2up p{
+        font-size: 15px;
+    }
+    .section-2 h1{
+        font-size: 40px;
+    }
+    .sec2content{
+        font-size: 15px;
+        padding: 0 20px;
+    }
+    .section-3{
+        padding: 10px 166px;
+        justify-content: center;
+        height: 300px;
+    }
+    .section-3 .box{
+        max-width: 45vw;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    .section-3 .box h1{
+        font-size: 20px;
+    }
+    .section-3 .box p{
+        font-size: 12px;
+        line-height: normal;
+    }
+    .section-4{
+        height: 100px;
+    }
 }

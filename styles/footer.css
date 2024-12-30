@@ -80,3 +80,19 @@
     text-decoration: underline;
     cursor: pointer;
 }
+@media (max-width: 600px){
+    .sec6up{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gmaps{
+        height: 185px;
+        width: 300px;
+    }
+    .sec6upright h1{
+        font-size: 25px;
+    }
+    .details p{
+        font-size: 20px;
+    }
+}

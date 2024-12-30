@@ -127,3 +127,104 @@ body{
 .section-5{
     padding-top: 0px !important;
 }
+@media (min-width: 700px) and (max-width: 1024px){
+    .btmimg2{
+        height: 200px;
+    }
+    .btmimg1, .btmimg3{
+        height: 170px;
+    }
+    .section-3{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .section-3 p{
+        font-size: 40px;
+    }
+    .section-3 p img{
+        height: 40px;
+    }
+    .sec3img{
+        height: 400px;
+        width: 550px;
+    }
+    .sec4lower{
+        flex-direction: column;
+    }
+    .box, .box{
+        transform: scale(0.8);
+        margin-top: -120px;
+    }
+    .section-6{
+        margin-top: -200px;
+    }
+} 
+@media (max-width: 699px){
+    .sec1top h1{
+        font-size: 40px;
+    }
+    .sec1top h2{
+        font-size: 20px;
+    }
+    .sec1top p{
+        font-size: 15px;
+    }
+    .btmimg1, .btmimg3{
+        display: none;
+    }
+    .btmimg2{
+        height: 200px;
+    }
+    .section-2 h1{
+        font-size: 30px;
+    }  
+    .section-2 p{
+        font-size: 15px;
+    }
+    .section-3{
+        flex-direction: column;
+    }
+    .section-3 p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-3 p img{
+        height: 25px;
+    }
+    .sec3img{
+        height: 200px;
+        width: 300px;
+        align-self: center;
+    }
+    .section-4{
+        margin-top: 30px;
+    }
+    .section-4 h1{
+        font-size: 30px;
+        margin-bottom: 120px;
+    }
+    .sec4lower{
+        flex-direction: column;
+    }
+    .box{
+        transform: scale(0.7);
+        margin-bottom: 0;
+        margin-top: -180px;
+    }
+    .box h1{
+        margin-bottom: 10px;
+    }
+    .bl1, .bl2, .bl3{
+        transform: scale(0.7);
+    }
+    .section-6{
+        margin-top: -200px;
+    }
+}
+@media (min-width: 900px) and (max-width: 1024px){
+    .sec4lower{
+        width: 60vw;
+        margin-left: 21vw;
+    }
+}
