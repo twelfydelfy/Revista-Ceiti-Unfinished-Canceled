@@ -79,9 +79,14 @@
     right: -30%;
     top: 180px;
 }
-.midgrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
+.leftbtn, .rightbtn{
+    display: none;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .box{
     display: flex;
@@ -175,6 +180,11 @@
     transform: translate(-50%, -50%);
 }
 @media (max-width: 700px){
+    body{
+        overflow-x: hidden;
+        width: 100vw;
+        padding-right: 0 ;
+    }
     .section-1{
         padding-top: 50px;
         margin: 0;
@@ -226,5 +236,49 @@
     }
     .sec3txt p{
         font-size: 15px;
+    }
+    .box{
+        transform: scale(0.6);
+    }
+    .slider{
+        width: 90vw;
+        overflow-x:hidden; 
+    }
+    .overflow{
+        width: 270vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: -14vw;
+        transition: all ease-in-out 0.5s;
+    }
+    .midgrid{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 20px;
+    }
+    .leftbtn, .rightbtn{
+        display: inline-block;
+        height: 40px;
+        width: 33px;
+    }
+    .dots{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -80px;
+    }
+    .dot1, .dot2, .dot3{
+        height: 9px;
+        width: 9px;
+        background-color: #162A2B;
+        opacity: .3;
+        margin: 0 8px;
+        border-radius: 9px;
+    }
+    .dot1{
+        opacity: 1;
     }
 }
