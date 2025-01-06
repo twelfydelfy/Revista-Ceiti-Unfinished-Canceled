@@ -123,6 +123,8 @@
     font-family: Karla;
     font-size: 30px;
     word-spacing: 0.4em;
+    text-wrap: wrap;
+    width: 25vw;
 }
 .s1{
     color: #B81F1F;
@@ -145,6 +147,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.overflow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+.midgrid{
+    display: flex;
+}
 .sec4right{
     display: flex;
     flex-direction: row;
@@ -155,24 +166,44 @@
 .box2{
     display: flex;
     flex-direction: column;
-    height: 621px;
-    background-color: #D6E0E2;
-    width: 391px;
+    height: 622px;
+    background-image: url(../images/image\ 29.png);
+    width: 622px;
     position: relative;
-    margin-left: 5px;
+    border-radius: 35px;
 }
 .innerbox{
-    background-color: white;
-    height: 126px;
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    height: 200px;
     position: absolute;
     bottom: 0;
     left: 0; right: 0;
-    padding: 15px 20px;
+    padding: 15px 40px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.inner-left{
+    display: flex;
+    flex-direction: column;
+}
+.inner-right img{
+    height: 116px;
+    width: 116px;
 }
 .box2 p{
-    font-size: 20px;
+    font-size: 34px;
     font-family: Karla;
     margin-top: 0;
+}
+.inner-left img{
+    height: 40px;
+    width: 160px;
 }
 .box2 span{
     position: absolute;
@@ -243,6 +274,7 @@
     .slider{
         width: 90vw;
         overflow-x:hidden; 
+        margin-top: -100px;
     }
     .overflow{
         width: 270vw;
@@ -280,5 +312,52 @@
     }
     .dot1{
         opacity: 1;
+    }
+    .section-4{
+        flex-direction: column;
+        height: 400px;
+        padding: 0;
+        padding-bottom: 50px;
+        margin-top: -120px;
+    }
+    .sec4left{
+        margin-top: 0;
+    }
+    .sec4left h1{
+        font-size: 30px;}
+    .sec4left p{
+        font-size: 15px;
+        width: 90vw;
+        text-align: center;
+        word-spacing: normal;
+    }
+    .sec4left button{
+        transform: scale(0.7);
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .box2{
+        height: 184px;
+        width: 184px;
+        margin-top: 0px;
+    }
+    .box2 p{
+        font-size: 10px;
+    }
+    .inner-left img{
+        height: 12px;
+        width: 48px;
+    }
+    .inner-right img{
+        height: 34px;
+        width: 34px;
+    }
+    .innerbox{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 40px;
+    }
+    .blusqr{
+        height: 450px;
     }
 }
