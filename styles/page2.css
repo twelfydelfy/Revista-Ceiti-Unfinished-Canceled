@@ -161,8 +161,14 @@ body{
     }
 } 
 @media (max-width: 699px){
+    .section-1{
+        background-image: url(../images/Page2mobileback.png);
+        margin-top: 30px;
+        padding-bottom: 100px;
+    }
     .sec1top h1{
         font-size: 40px;
+        margin-top: 0;
     }
     .sec1top h2{
         font-size: 20px;
@@ -174,16 +180,22 @@ body{
         display: none;
     }
     .btmimg2{
-        height: 200px;
+        height: 137px;
+    }
+    .section-2{
+        height: 400px;
+        margin-top: 0;
     }
     .section-2 h1{
-        font-size: 30px;
+        font-size: 20px;
     }  
     .section-2 p{
         font-size: 15px;
     }
     .section-3{
-        flex-direction: column;
+        background-image: url(../images/page2mobileback2.png);
+        margin-top: 50px;
+        flex-direction: column-reverse;
     }
     .section-3 p{
         font-size: 25px;
@@ -199,6 +211,7 @@ body{
     }
     .section-4{
         margin-top: 30px;
+        background-image: url(../images/page2mobileback3.png);
     }
     .section-4 h1{
         font-size: 30px;
@@ -208,9 +221,8 @@ body{
         flex-direction: column;
     }
     .box{
-        transform: scale(0.7);
+        transform: scale(0.5);
         margin-bottom: 0;
-        margin-top: -180px;
     }
     .box h1{
         margin-bottom: 10px;
@@ -219,12 +231,40 @@ body{
         transform: scale(0.7);
     }
     .section-6{
-        margin-top: -200px;
+        margin-top: -360px;
     }
+    .slider{
+        width: 90vw;
+        overflow-x:hidden; 
+        margin-top: -100px;
+    }
+    .overflow{
+        width: 270vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: -28.25vw;
+        transition: all ease-in-out 0.5s;
+    }
+    .midgrid{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 20px;
+        margin-top: -180px;
+    }
+    .leftbtn, .rightbtn{
+        display: inline-block;
+        height: 40px;
+        width: 33px;
+    }
+
 }
 @media (min-width: 900px) and (max-width: 1024px){
     .sec4lower{
         width: 60vw;
         margin-left: 21vw;
     }
+    
 }

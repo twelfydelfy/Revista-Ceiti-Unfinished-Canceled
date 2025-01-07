@@ -140,16 +140,17 @@ form input{
 .box4 h2{
     margin-top: -16px;
 }
-@media (max-width: 1024px){
+@media (max-width: 700px){
     .section-1{
-        margin-top: 85px;
+        height: 200px;
+        margin-top: -5px;
     }
     .section-1 h1{
-        font-size: 40px;
+        font-size: 30px;
     }
     .section-1 p{
-        font-size: 20px;
-        padding: 0 20px;
+        font-size: 15px;
+        padding: 0 70px;
     }
     .section-2{
         flex-direction: column;
@@ -170,6 +171,9 @@ form input{
     }
     .form input{
         font-size: 15px;
+    }
+    .bigboy{
+        padding-bottom: 10px;
     }
     .subbutton{
         height: 50px;

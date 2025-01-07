@@ -94,12 +94,23 @@ body{
     line-height: 50px;
     padding: 10px 20px;
 }
-@media (max-width: 600px){
+@media (max-width: 700px){
+    .section-1{
+        height: 210px;
+        margin-top: -5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .section-1 h1{
-        font-size: 40px;
+        font-size: 30px;
+        margin-top: 0;
     }
     .section-1 p{
-        font-size: 25px;
+        font-size: 20px;
+    }
+    .section-2{
+        margin-top: -20px;
     }
     .sec2up{
         padding: 0 10px;
@@ -108,10 +119,11 @@ body{
         font-size: 15px;
     }
     .section-2 h1{
-        font-size: 40px;
+        font-size: 20px;
+        font-weight: bold;
     }
     .sec2content{
-        padding: 0 10px;
+        padding: 0 50px;
         font-size: 15px;
     }
     .section-3{
@@ -119,15 +131,18 @@ body{
         margin-top: 50px;
     }
     .box{
-        width: 40vw;
+        width: 45vw;
         text-align: center;
+        padding-top: 10px;
     }
     .box h1{
-        font-size: 22px;
+        font-size: 18px;
+        margin: 0;
     }
     .box p{
-        font-size: 12px;
+        font-size: 10px;
         line-height: normal;
         padding: 10px 6px;
+        margin-top: 0;
     }
 }

@@ -129,15 +129,35 @@ body{
     margin-top: -20px;
 }
 @media (max-width: 600px){
+    .section-1{
+        margin-top: -5px;
+        height: 254px;
+        justify-content: flex-start;
+    }
     .section-1 h1{
-        font-size: 40px;
+        font-size: 30px;
     }
     .section-1 p{
-        font-size: 20px;
+        font-size: 14px;
+        padding: 0 10px;
     }
     .searchbar{
         width: 90vw;
-        margin-left: 2.5vw;
+        align-self: center;
+        margin-left: 0;
+    }
+    .searchbar input{
+        height: 30px;
+        padding: 0 10px;
+        width: 80vw;
+        font-size: 14px;
+    }
+    .searchbar img{
+        height: 25px;
+    }
+    .searchbar button{
+        right: 5px;
+        top: 40%;
     }
     .sec2up{
         padding: 0 10px;
@@ -146,28 +166,34 @@ body{
         font-size: 15px;
     }
     .section-2 h1{
-        font-size: 40px;
+        font-size: 20px;
+        font-weight: 700;
     }
     .sec2content{
         font-size: 15px;
         padding: 0 20px;
     }
     .section-3{
-        padding: 10px 166px;
-        justify-content: center;
-        height: 300px;
+        padding: 10px 10px;
+        justify-content: space-evenly;
+        height: 150px;
+        background-image: url(../images/page3cback.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .section-3 .box{
-        max-width: 45vw;
+        max-width: 40vw;
         margin-left: 20px;
         margin-right: 20px;
-        
+        border-radius: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
     .section-3 .box h1{
-        font-size: 20px;
+        font-size: 13px;
     }
     .section-3 .box p{
-        font-size: 12px;
+        font-size: 7px;
         line-height: normal;
     }
     .section-4{

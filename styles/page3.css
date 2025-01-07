@@ -174,24 +174,48 @@ body{
     }
 }
 @media (max-width: 600px){
+    .section-1{
+        margin-top: -5px;
+        height: 254px;
+        justify-content: flex-start;
+    }
     .section-1 h1{
-        font-size: 40px;
+        font-size: 30px;
     }
     .section-1 p{
-        font-size: 20px;
-        padding: 0 20px;
+        font-size: 14px;
+        padding: 0 10px;
     }
     .searchbar{
         width: 90vw;
-        margin-left: 2vw;
+        align-self: center;
+        margin-left: 0;
+    }
+    .searchbar input{
+        height: 30px;
+        padding: 0 10px;
+        width: 80vw;
+        font-size: 14px;
+    }
+    .searchbar img{
+        height: 25px;
+    }
+    .searchbar button{
+        right: 5px;
+        top: 40%;
+    }
+    .section-2{
+        height: 40px;
+        padding-top: 15px;
     }
     .section-2 h1{
-        font-size: 30px;
+        font-size: 20px;
         padding-top: 30px;
     }
     .section-3{
         display: flex;
         flex-direction: column;
+        padding-top: 100px;
     }
     .box, .container button{
         transform: scale(0.6);
@@ -203,8 +227,16 @@ body{
     }
     .section-4{
         padding: 50px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
     }
     .box{
         margin-top: -120px;
     }
+    .box3, .box4{
+        display: none;
+    }
+   
 }

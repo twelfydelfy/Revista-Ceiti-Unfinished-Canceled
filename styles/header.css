@@ -32,6 +32,9 @@
     color: #951113;
     text-decoration: underline;
 }
+.hmobicon, .hmobburger, .hmobextended{
+    display: none;
+}
 @media screen and (max-width: 1170px){
     .header a{
         font-size: 20px;
@@ -48,5 +51,51 @@
     .hmid img{
         width: 219px;
         height: 41px;
+    }
+    .hleft, .hmid, .hright{
+        display: none;
+    }
+    .hmobicon{
+        display: inline-block;
+        
+    }
+    .hmobicon img{
+        height: 37px;
+        width: 66.2px;
+    }
+    .hmobburger{
+        display: inline-block;
+        
+    }
+    .hmobburger img{
+        height: 14px;
+        width: 41px;
+    }
+    .header{
+        padding: 10px 20px;
+    }
+    .hmobextended{
+        z-index: 10;
+        display: none;
+        flex-direction: column;
+        width: 100vw;
+        position: absolute;
+        right: 0;
+        top: 60px;
+        padding: 50px 0;
+        align-items: center;
+        background-color: rgba(22, 42, 43, 0.8);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+    .hmobextended a{
+        margin-top: 20px;
+        font-size: 25px;
+        color: white;
+    }
+    .hmobextended img{
+        height: 33px;
+        width: 37px;
+        pointer-events: all;
     }
 }
