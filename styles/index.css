@@ -108,7 +108,7 @@
     border: none;
     padding: 7px 30px 13px 30px;
     margin-top:15px;
-}/*Să modific de pe butoane pe div*/
+}
 .sec4left{
     display: flex;
     flex-direction: column;
@@ -142,7 +142,7 @@
     justify-content: space-between;
     padding: 0 50px;
     background-image: url('../images/Group 44.png');
-    height: 95vh;
+    height: 700px;
     margin-top: 85px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,6 +209,47 @@
     position: absolute;
     top: 40%; left: 50%;
     transform: translate(-50%, -50%);
+}
+@media(min-width: 701px) and (max-width: 1450px){
+    .section-1{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .sec1text h1, .sec2txt h1, .sec3txt h1, .section-4 h1{
+        font-size: 55px;
+    }
+    .sec1text p, .sec2txt p, .sec3txt p{
+        font-size: 15px;
+    }
+    .sec1img img{
+        transform: scale(0.8);
+    }
+    .echipa{
+        height: 470px;
+        width: 470px;
+    }
+    .blusqr{
+        height: 702;
+    }
+    .box{
+        transform: scale(0.75);
+    }
+    .section-3{
+        margin-bottom: 100px;
+    }
+    .box2{
+        transform: scale(0.75);
+    }
+    .sec4left h1{
+        font-size: 60px;
+    }
+    .sec4left p{
+        font-size: 22.5px;
+    }
+    .sec4left button{
+        transform: scale(0.75);
+    }
+
 }
 @media (max-width: 700px){
     body{

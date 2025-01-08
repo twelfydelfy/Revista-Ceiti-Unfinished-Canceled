@@ -80,6 +80,23 @@
     text-decoration: underline;
     cursor: pointer;
 }
+@media (min-width: 601px) and (max-width: 1450px){
+    .section-5{
+        padding-top: 120px;
+    }
+    .sec5color h1{
+        font-size: 45px;
+    }
+    .sec5color-button{
+        font-size: 25px;
+    }
+    .sec6upright{
+        font-size: 30px;
+    }
+    .details p{
+        font-size: 30px;
+    }
+}
 @media (max-width: 600px){
     .sec6up{
         flex-direction: column;

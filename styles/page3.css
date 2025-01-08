@@ -12,6 +12,7 @@ body{
     background-size: cover;
     justify-content: center;
     z-index: 2;
+    margin-top: -15px;
 }
 .section-1 h1{
     font-family: 'Kumbh Sans';
@@ -73,8 +74,8 @@ body{
     grid-template-columns: 1fr 1fr;
     background-color: #162A2B;
     padding-top: 50px;
-    row-gap: 70px;
     padding-bottom: 70px;
+    row-gap: 0;
 }
 .container{
     display: flex;
@@ -93,7 +94,7 @@ body{
     background-color: #D6E0E2;
     height: 429px;
     width: 536px;
-    border-radius: 20px;
+    border-radius: 20px;    
     transition: all ease-in 0.2s;
 }
 .container button{
@@ -156,11 +157,33 @@ body{
     padding: 0 30px;
 }
 .section-4{
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-image: url(../images/Group\ 56.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+@media (min-width: 1025px) and (max-width: 1450px){
+    .section-1 h1{
+        font-size: 75px;
+    }
+    .section-1 p{
+        font-size: 22.5px;
+        padding-left: 25vw;
+        padding-right: 25vw;
+    }
+    .searchbar{
+        transform: scale(0.75);
+    }
+    .section-2{
+        padding-bottom: 60px;
+    }
+    .section-2 h1{
+        font-size: 48px;
+    }
+    .container{
+        transform: scale(0.8);
+    }
 }
 @media (min-width: 700px) and (max-width: 1024px){
     .container{

@@ -8,6 +8,7 @@ body{
     text-align: center;
     background-image: url("../images/Group\ 51.png");
     height: 680px;
+    margin-top: -15px;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -128,7 +129,33 @@ body{
     background-position: top;
     margin-top: -20px;
 }
-@media (max-width: 600px){
+@media (min-width: 701px) and (max-width: 1450px){
+    .section-1 h1{
+        font-size: 75px;
+    }
+    .section-1 p{
+        font-size: 22.5px;
+    }
+    .searchbar{
+        transform: scale(0.75);
+    }
+    .sec2up p{
+        font-size: 17px;
+    }
+    .section-2 h1{
+        font-size: 60px;
+    }
+    .sec2content{
+        font-size: 17px;
+    }
+    .section-3{
+        height: 375px;
+    }
+    .section-3 .box{
+        transform: scale(0.75);
+    }
+}
+@media (max-width: 700px){
     .section-1{
         margin-top: -5px;
         height: 254px;

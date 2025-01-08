@@ -5,7 +5,7 @@ body{
 .section-1{
     text-align: center;
     background-image: url(../images/Group\ 53.png);
-    margin-top: 110px;
+    
     height: 631px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,9 +33,8 @@ body{
     background-size: cover;
     display: flex;
     flex-direction: row;
-    padding-left: 100px;
-    padding-top: 300px;
-    padding-bottom: 300px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     align-items: center;
 }
 .sec2left{
@@ -139,6 +138,18 @@ form input{
 }
 .box4 h2{
     margin-top: -16px;
+}
+@media (min-width: 701px) and (max-width: 1450px){
+    .section-1 h1{
+        font-size: 75px;
+    }
+    .section-1 p{
+        font-size: 22.5px;
+    }
+    .sec2left, .sec2right{
+        transform: scale(0.75);
+    }
+    
 }
 @media (max-width: 700px){
     .section-1{

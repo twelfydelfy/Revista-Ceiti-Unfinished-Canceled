@@ -35,6 +35,15 @@
 .hmobicon, .hmobburger, .hmobextended{
     display: none;
 }
+@media (max-width: 1450px){
+    .header a{
+        font-size: 25px;
+    }
+    .hmid img{
+        height: 60px;
+        width: 300px;
+    }
+}
 @media screen and (max-width: 1170px){
     .header a{
         font-size: 20px;
