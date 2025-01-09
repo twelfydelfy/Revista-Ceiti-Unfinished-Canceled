@@ -1,4 +1,4 @@
- body{
+body{
     background-color: #FDFCF7;
     margin: 0;
 }
@@ -140,7 +140,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 100px 100px;
     background-image: url('../images/Group 44.png');
     height: 700px;
     margin-top: 85px;
@@ -159,9 +159,15 @@
 .sec4right{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-grow: 1;   
+    width: 622px;
+    overflow: hidden;
+}
+.overflow2{
+    display: flex;
+    width: 300%;
+    flex-direction: row;
+    margin-left: 0%;
+    transition: all ease-in 0.5s;
 }
 .box2{
     display: flex;
@@ -171,6 +177,11 @@
     width: 622px;
     position: relative;
     border-radius: 35px;
+    transform: scale(0.5);
+    transition: all ease-out 0.5s;
+}
+.box2.active{
+    transform: scale(1);
 }
 .innerbox{
     background-color: rgba(255, 255, 255, 0.8);
@@ -238,6 +249,9 @@
         margin-bottom: 100px;
     }
     .box2{
+        transform: scale(0.4);
+    }
+    .box2.active{
         transform: scale(0.75);
     }
     .sec4left h1{
@@ -356,7 +370,7 @@
     }
     .section-4{
         flex-direction: column;
-        height: 400px;
+        height: 420px;
         padding: 0;
         padding-bottom: 50px;
         margin-top: -120px;
@@ -376,6 +390,14 @@
         transform: scale(0.7);
         margin-top: -10px;
         margin-bottom: 10px;
+    }
+    .sec4right{
+        width: 184px;
+        height: 184px;
+        align-self: center;
+    }
+    .overflow2{
+        height: 184px;
     }
     .box2{
         height: 184px;
