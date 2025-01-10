@@ -27,6 +27,7 @@
     font-size: 30px;
     cursor: pointer;
     transition: all ease-out 0.3s;
+    text-decoration: none;
 }
 .header a:hover{
     color: #951113;

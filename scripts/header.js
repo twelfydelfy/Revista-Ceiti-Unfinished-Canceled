@@ -2,13 +2,6 @@ let burgerstate = false;
 const menu = document.querySelector('.hmobextended');
 const exit = document.querySelector('.headerx');
 
-exit.addEventListener('click', ()=>{
-    menu.style.display = 'none';
-    burgerstate = false;
-    console.log(burgerstate);
-});
-
-
 document.querySelector('.hmobburger').addEventListener('click', ()=>{
     if(!burgerstate){
         menu.style.display = 'flex';
@@ -18,6 +11,12 @@ document.querySelector('.hmobburger').addEventListener('click', ()=>{
         menu.style.display = 'none';
         burgerstate = false;
     }
+});
+
+exit.addEventListener('click', (event)=>{
+    event.stopPropagation();
+    menu.style.display = 'none';
+    burgerstate = false;
 });
 
 if (window.innerWidth < 700){
