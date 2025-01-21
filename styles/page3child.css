@@ -130,6 +130,9 @@ body{
     margin-top: -20px;
 }
 @media (min-width: 701px) and (max-width: 1450px){
+    body{
+        overflow-x: hidden;
+    }
     .section-1 h1{
         font-size: 75px;
     }
@@ -156,6 +159,9 @@ body{
     }
 }
 @media (max-width: 700px){
+    body{
+        overflow-x: hidden;
+    }
     .section-1{
         margin-top: -5px;
         height: 254px;

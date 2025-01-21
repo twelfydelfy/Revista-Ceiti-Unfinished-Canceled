@@ -115,6 +115,9 @@ body{
     }
 }
 @media (max-width: 700px){
+    body{
+        overflow-x: hidden;
+    }
     .section-1{
         height: 210px;
         margin-top: -5px;
